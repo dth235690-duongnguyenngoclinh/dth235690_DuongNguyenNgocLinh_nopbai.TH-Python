@@ -1,0 +1,8 @@
+print("Python hỗ trợ những kiểu dữ liệu cơ bản nào?") 
+print("Kiểu số học (Numeric Types): int, float, complex")
+print("Kiểu chuỗi ký tự (Text Type): str")
+print("Kiểu logic (Boolean Type): bool")
+print("Kiểu chuỗi dữ liệu (Sequence Types): list, tuple, range")
+print("Kiểu tập hợp (Set Types): set, frozenset")
+print("Kiểu ánh xạ (Mapping Type): dict")
+print("Kiểu đặc biệt: NoneType")

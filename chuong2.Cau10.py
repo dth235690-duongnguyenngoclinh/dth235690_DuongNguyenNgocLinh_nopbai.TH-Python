@@ -1,0 +1,8 @@
+print("Hãy viết ngắn gọn lại các lệnh dưới đây")
+print("(a) x = x + 1 \n-> x += 1")
+print("(b) x = x / 2 \n-> x /= 2")
+print("(c) x = x - 1 \n-> x -= 1")
+print("(d) x = x + y \n-> x += y")
+print("(e) x = x - (y + 7) \n-> x -= (y + 7)")
+print("(f) x = 2 * x \n-> x *= 2")
+print("(g) number_of_closed_cases = number_of_closed_cases + 2 * ncc \n-> number_of_closed_cases += 2 * ncc")
