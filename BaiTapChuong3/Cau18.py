@@ -1,16 +1,27 @@
-# Hình 1
 n = int(input("Nhập n: "))
-for i in range(n):
-    print(' ' * i + '* ' * (n - i))
 
-# Hình 2
-print()
-n = int(input("Nhập n: "))
-for i in range(n):
-    print(' ' * i + '*' + ' ' * (2 * (n - i - 1) - 1) + ('*' if i < n - 1 else ''))
 
-# Hình 3
-print()
-n = int(input("Nhập n: "))
+print("Hình 1")
 for i in range(n):
-    print(' ' * i + '*' + (' ' * (2 * (n - i - 1) - 1) + '*' if i < n - 1 else ''))
+    for j in range(n):
+        if i == 0 or i == n - 1 or j == 0 or j == n - 1:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+
+print()  # Dòng trống giữa hai hình
+
+
+print("Hình 2:")
+for i in range(n):
+    # In khoảng trắng để đẩy tam giác sang phải
+    for k in range(n - i - 1):
+        print(' ', end=' ')
+    # In phần tam giác
+    for j in range(i + 1):
+        if j == 0 or j == i or i == n - 1:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
