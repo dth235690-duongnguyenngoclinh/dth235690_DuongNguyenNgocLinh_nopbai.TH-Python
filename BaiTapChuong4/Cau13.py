@@ -29,7 +29,7 @@ tong_uoc = sum_proper_divisors(n)
 print(f"Tổng các ước (không kể {n})là: ", tong_uoc)
 
 if is_perfect(n):
-    print(f"-> {n} Là số hoàn thiện (Pểfect number).")
+    print(f"-> {n} Là số hoàn thiện (Perfect number).")
 elif is_abundant(n):
     print(f"-> {n} Là số thịnh vượng (Abundant number).")
 else:
